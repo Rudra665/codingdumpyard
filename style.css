@@ -8,13 +8,33 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
-
-/*.btn-group{
-
-    position: fixed;
-    bottom: 0px;
-    right: 0px; 
+.position{
+		position: absolute;
+width: 614px;
+height: 56px;
+left: 104px;
+top: 275px;
 
 }
-*/
+
+.moto{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 38px;
+line-height: 56px;
+color: #FEFFFD;
+
+}
+
+.purpose{
+	
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 27px;
+color: #FDFBFB;
+
+}
 
