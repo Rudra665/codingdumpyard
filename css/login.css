@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	background: url(../assets/ape.jpg);
+	background-size: cover;
+	height: 50vh;
+	
+}
+.login{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+	width: 340px;
+	height: 450px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.526);
+
+}
+.login:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(244, 245, 245, 0.192);
+	pointer-events: none;
+	
+
+}
+
+.login h2{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	color: rgb(232, 155, 0);
+}
+.login p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color:#fff;
+	
+}
+.login input{
+	width: 255px;
+	margin-bottom: 50px;
+}
+.login input[type="text"], 
+.login input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+	height: 20px;
+}
+.login input[type="submit"]
+{
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: black;
+	background: rgb(232, 155, 0);
+	border-radius: 16px ;
+	height: 30px;
+	font-size: 16px;
+} 
+.login input[type="submit"]:hover
+{
+	color: black;
+	
+	background: #f3ec86;
+}
+.login a{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+.login a:hover{
+	color:rgb(255, 233, 31); ;
+}
+.tattoo{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: calc(-20px/2);
+	left: calc(55% - 50px);
+	border-radius: 200px;
+	pointer-events: cursor;
+}
+
