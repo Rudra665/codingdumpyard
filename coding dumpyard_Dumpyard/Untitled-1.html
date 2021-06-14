@@ -1,0 +1,346 @@
+<!doctype html>
+<html><head>
+    <title>codingdumpyard
+    </title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+        body{
+            overflow-y: hidden;
+          position: fixed;
+            padding: 0px;
+            margin:0px;
+            background-image: url(EAB5Co.jpg);
+            background-size: cover;
+            background-repeat:no-repeat ;
+        }
+        li, a{
+            font-family: abel;
+            font-weight: 500;
+            font-size: 17px;
+            color: aliceblue;
+            text-decoration: none;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 3%;
+        }
+        .logo{
+          width:50px;
+          height:auto;
+          
+        }
+        .brand{
+            display: flex;
+            float: left;
+            padding: 1.6rem 1rem;
+            font-family: able;
+            font-size:25px ;
+        }
+        .Coding{
+            color: rgb(250, 145, 7);
+            font-family:abel;
+        }
+        .Dumpyard{
+            color: aliceblue;
+            font-family:abel;
+        }
+        .slash{
+            color:aliceblue;
+        }
+        .nav-items{
+            padding-right: 20px;
+            list-style: none;
+        }
+        .nav-items li{
+            display: inline-block;
+            padding: 0px 20px;
+        }
+        .nav-items li{
+            transition: all 0.7s ease;
+        }
+        .nav-items li a:hover{
+            color: rgb(250, 145, 7);
+            font-size: 19px;
+            transition: 0.3s ease-in;
+        }
+       
+        .left{
+            content: fixed;
+            float:left;
+            width: 400px;
+            height:620px;
+            justify-content: center;
+        }
+        .search {
+            margin-left: 43px;
+            padding-top: 10%;
+  width: 90%;
+  position: relative;
+  display: flex;
+  background: none;
+}
+
+.searchTerm {
+    box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+  width: 90%;
+  border:1px solid rgb(250, 145, 7);
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 25px 0px 0px 25px;
+  outline: none;
+  color: black;
+  background: none;
+}
+
+.searchTerm:focus{
+  color: rgb(250, 145, 7);
+}
+
+.searchButton {
+    box-shadow: 5px 5px 5px 0px;
+  width: 40px;
+  height: 32px;
+  border: 1px solid rgb(250, 145, 7);
+  background: none;
+  text-align: center;
+  color: black;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.news{
+    margin:43px;
+    color: rgb(255, 123, 0);
+    margin-top: 5%;
+    width:80%;
+    height:80%;
+    padding: 5%;
+    align-items: left;
+    box-shadow:inset 5px 3px 10px 10px rgb(22, 10, 0);
+}
+.right{
+    width: 74%;
+    margin-left: 26%;
+    display: flex;
+    height: 650px; 
+    align-content: right;
+    overflow: scroll; 
+    
+}
+::-webkit-scrollbar {
+  width: 10px;
+  transition: 0.2s ease all;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+ 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:rgb(255, 123, 0) ; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 123, 0);
+}
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color:white;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+    flex-wrap:wrap ;
+  display:flex;
+  list-style: none;
+  padding: 0;
+}
+
+.cards_item {
+  position: relative;
+  display: flex;
+  padding:0;
+}
+
+@media (min-width: 20rem) {
+  .cards_item {
+    width: 30%;
+  }
+}
+
+@media (min-width: 36rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+    margin:10px;
+  background:transparent; 
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, rgba(53, 53, 53, 0.849) 40%, #000000 100%);
+}
+
+.card_title {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: white;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 10px;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 15px;
+  text-align: center;
+}
+    </style>
+    </head>
+    <body>
+        <header>
+    <div class="brand">
+      <div class="logo"><a href="#"><img src= url(download1.jpeg)></img></a></div>
+        <div class="Coding">Coding</div>
+        <div class="Dumpyard">Dumpyard</div>
+        <div class="slash">_</div>
+    </div>
+                <nav>
+                    <ul class="nav-items">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">root_initiator</a>
+                        </li>
+                        <li class="button">
+                            <a href="#">Login</a></li>
+                            <li class="button">
+                              <a href="#">Join_us</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <DIV CLASS="main-section">
+            <div class="left">
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                    <button type="submit" class="searchButton">
+                      <i class="fa fa-search"></i>
+                   </button>
+                 </div>
+                 <div class="news">News</div>
+            </div>
+            <div class="right">
+                <div id="progressbar" class="scroll_color"></div>
+                <div id="scrollpath"></div>
+                    <ul class="cards">
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
+                          <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
+                          <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
+                          <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=14"></div>
+                          <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=17"></div>
+                          <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                          <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  <h3 class="made_by">Made with ♡</h3>
+                  
+            </div>
+        </DIV>
+    </body>
+</html>
